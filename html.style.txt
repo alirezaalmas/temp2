@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+	<meta charset="UTF-8">
+	<title>«— »«ÿ »« „« </title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="menu.js"></script>
+	<link rel="stylesheet" href="jquery.slide.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery.slide.js"></script>
+	<script >
+		$(function() {
+	    $('.slide').slide();
+		});
+
+		$('nav .type').hover(function () {
+  		$('nav .type:first-child').toggleClass("active");
+ 		});
+	</script>
+</head>
+<body>
+	<div class="header"> 
+		<div class="name">Å—œÂ ”—«Ì ”Â‰œ </div>
+		
+	</div>
+	<div class="menu">
+
+
+		<div id="sse1">
+  			<div id="sses1">
+   			 <ul>
+   			   <li><a href="#">’›ÕÂ «’·Ì</a></li>
+   			   <li><a href="#">Œ—Ìœ</a></li>
+    		   <li><a href="#">«— »«ÿ »« „«</a></li>
+  			 </ul>
+    		</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="sheets">
+		
+
+		</div>
+
+		<div class="menu3">
+  			<ul>
+    		<li><a href="#products">Instagram</a></li>
+    		<li><a href="#services">Telegram</a></li>
+    		<li><a href="#careers">Address</a></li>
+    		<li><a href="#about">Email</a></li>
+      		<li><a href="#about">Contact us</a></li>
+  			</ul>
+		</div>
+
+
+	
+		<div class="verticalMenu">
+			<nav role='navigation'>
+  				<ul>
+   				    <li class="type"><a class="type2" href="#">Å«—çÂ «Ì</a></li>
+   			    	<li class="type"><a class="type2" href="#">⁄„ÊœÌ</a></li>
+  		  		    <li class="type"><a class="type2" href="#">‘Ìœ </a>
+  		  			<li class="type"><a class="type2" href="#">ò—ò—Â</a></li>
+  		  			<li class="type"><a class="type2" href="#">“»—«</a></li>
+  		  			<li class="type"><a class="type2" href="#">”«Ì—</a></li>
+ 				</ul>
+			</nav>
+		</div>
+
+	</div>
+	</div>
+	<div class="footer">
+		<div class="footerText">	 „«„Ì ÕﬁÊﬁ «Ì‰ Ê»”«Ì  „ ⁄·ﬁ »Â Å—œÂ ”—«Ì ”Â‰œ „Ì »«‘œ .</div>
+	
+	</div>
+</body>
+</html>
